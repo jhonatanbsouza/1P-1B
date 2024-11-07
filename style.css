@@ -1,8 +1,30 @@
 body{
-    background-color: rgb(41, 146, 146);
+    background-color: black; 
+    /* * altera a cor de fundo */
+    color: white;
+    /* * muda a cor do texto */
+    text-align: center;
+    /* * muda o alinhamento do texto */
+    margin: 0;
+    /* * espaçamento externo */
 }
 
 h1{
-    color: rgb(112, 89, 124);
-    text-align: center;
+    margin: 50px;
+    padding: 30px ;
+    border-radius: 20px;
+}
+main{
+    background-color: rgb(244, 142, 95);
+    padding: 20px;
+}
+.cabecalho{
+    background-color: rgb(84, 62, 52);
+    margin: 0;
+    padding: 40px;
+}
+
+a{
+    color: white;
+    padding: 24px;
 }
